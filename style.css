@@ -49,7 +49,7 @@ body {
 
 .header-text {
     background-color: hsl(0, 0%, 98%);
-    height: 50vh;
+    height: 40vh;
     padding: 15px;
 }
 
@@ -78,6 +78,7 @@ body {
 .btn {
     background-image: linear-gradient(to right,hsl(136, 65%, 51%), hsl(192, 70%, 51%));
     width: 60%;
+    font-family: inherit;
     color: white;
     border: none;
     border-radius: 50px;
@@ -121,4 +122,204 @@ body {
 .features .feature-text {
     margin-top: 15px;
     margin-bottom: 10px;
+}
+
+.articles {
+    background-color: hsl(0, 0%, 98%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 35px;
+}
+
+.articles h3 {
+    color: hsl(233, 26%, 24%);
+    font-size: 1.7rem;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.card {
+    width: 230px;
+    height: 100%;
+    border-radius: 5px;
+    background-color: white;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.img {
+    width: 100%;
+}
+
+.card-bottom {
+    padding: 20px;
+}
+
+.author {
+    font-size: 0.6rem;
+    color: hsl(233, 8%, 62%);
+    margin-bottom: 10px;
+}
+
+.card-title {
+    color: hsl(233, 26%, 24%);
+    font-size: 0.8rem;
+    margin-bottom: 10px;
+}
+
+.card-text {
+    color: hsl(233, 8%, 62%);
+    font-size: 0.7rem;
+    line-height: 16px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(233, 26%, 24%);
+}
+
+.footer .footer-logo img {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.footer .social-icons img {
+    margin-left: 10px;
+    margin-bottom: 35px;
+}
+
+.footer .footer-links ul li {
+    margin-bottom: 15px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.footer .footer-links ul li a {
+    color: hsl(220, 16%, 80%);
+    text-decoration: none;
+}
+
+.footer button {
+    font-family: inherit;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.footer p {
+    font-size: 0.9rem;
+    color: hsl(233, 8%, 62%);
+    margin-bottom: 35px;
+}
+
+@media (min-width: 360px) {
+    .navbar {
+        padding: 20px;
+    }
+    
+    .navbar .logo img{
+        width: 130px;
+    }
+    
+    .navbar .hamburger img{
+        width: 25px;
+    }
+    
+    .header {
+        height: 45vh;
+    }
+
+    .header-mockup {
+        height: 430px;
+       transform: translate(0, -113.6%);
+    }
+
+    .header-text {
+        height: 45vh;
+        padding: 15px;
+    }
+
+    .header-text h1{
+        font-size: 2.5rem;
+    }
+    
+    .header-text p {
+        margin-top: 20px;
+        font-size: 0.9rem;
+    }
+    
+    .req-btn {
+        margin-top: 30px;
+    }
+    
+    .btn {
+        width: 50%;
+        padding: 15px; 
+        font-size: 1rem;  
+    }
+
+    .features h3 {
+        font-size: 2rem;
+    }
+
+    .features p {
+        font-size: 0.9rem;
+    }
+
+    .features .feature-heading {
+        font-size: 1.2rem;
+    }
+
+    .features .feature-text {
+        font-size: 0.9rem;
+        margin-bottom: 15px;
+    }
+
+    .articles {
+        padding: 40px 30px;
+    }
+
+    .articles h3 {
+        font-size: 2rem;
+        margin-bottom: 35px;
+    }
+
+    .card {
+        width: 300px;
+        border-radius: 7px;
+    }
+
+    .card-bottom {
+        padding: 30px;
+    }
+
+    .author {
+        font-size: 0.7rem;
+    }
+
+    .card-title {
+        font-size: 0.9rem;
+    }
+
+    .card-text {
+        font-size: 0.7rem;
+    }
+
+    .footer .footer-logo img {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    .footer .social-icons img {
+        margin-left: 15px;
+        width: 25px;
+    }
+
+    .footer p {
+        margin-bottom: 20px;
+    }
 }
